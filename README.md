@@ -7,14 +7,16 @@ Generates Android signing keys for crDroid and prepares them for inclusion in th
 This script only works for password-less keys (DO NOT SET A PASSWORD)  
 *This is due to building inline, other steps are necessary for a password*
 
-*Works with crDroid 8.x+*
+*Works with crDroid 7.x+*
 
 ## Usage
 
 Make the script executable and run it:
 
 ```bash
-chmod +x create-signed-env.sh
+git clone https://github.com/Romeo13card/crDroid-build-signed-script me
+mv me/*.
+rm -rf me
 ./create-signed-env.sh
 ```
 
