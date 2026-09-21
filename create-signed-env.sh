@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # Default values
-DEFAULT_COUNTRY="US"
-DEFAULT_STATE="California"
-DEFAULT_LOCALITY="Mountain View"
+DEFAULT_COUNTRY="RU"
+DEFAULT_REGION="Murmanskaya"
+DEFAULT_LOCALITY="Murmansk"
 DEFAULT_ORGANIZATION="crDroid"
 DEFAULT_ORG_UNIT="crDroid"
-DEFAULT_COMMON_NAME="crDroid"
+DEFAULT_COMMON_NAME="crdroid"
 DEFAULT_EMAIL="contact@crdroid.net"
 
 # Prompt the user for each part of the subject line with defaults
