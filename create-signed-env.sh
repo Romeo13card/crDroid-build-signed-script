@@ -13,8 +13,8 @@ DEFAULT_EMAIL="contact@crdroid.net"
 read -p "Enter country code [${DEFAULT_COUNTRY}] (C): " country
 country=${country:-$DEFAULT_COUNTRY}
 
-read -p "Enter state or province name [${DEFAULT_STATE}] (ST): " state
-state=${state:-$DEFAULT_STATE}
+read -p "Enter state or province name [${DEFAULT_REGION}] (RG): " region
+region=${region:-$DEFAULT_REGION}
 
 read -p "Enter locality [${DEFAULT_LOCALITY}] (L): " locality
 locality=${locality:-$DEFAULT_LOCALITY}
